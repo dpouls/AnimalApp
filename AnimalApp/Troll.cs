@@ -14,7 +14,7 @@ namespace AnimalApp
         }
         public override string Sound()
         {
-            return "A screeching roar to send chills down your spine.";
+            return "An extremely loud ape-like growl.";
         }
         public Troll(string paramFood, string paramSkin) : base(paramFood, paramSkin)
         {
