@@ -1,0 +1,15 @@
+C:\Users\dalli\source\repos\AnimalApp\AnimalApp\bin\Debug\AnimalApp.exe.config
+C:\Users\dalli\source\repos\AnimalApp\AnimalApp\bin\Debug\AnimalApp.exe
+C:\Users\dalli\source\repos\AnimalApp\AnimalApp\bin\Debug\AnimalApp.pdb
+C:\Users\dalli\source\repos\AnimalApp\AnimalApp\obj\Debug\AnimalApp.csprojAssemblyReference.cache
+C:\Users\dalli\source\repos\AnimalApp\AnimalApp\obj\Debug\MainWindow.g.cs
+C:\Users\dalli\source\repos\AnimalApp\AnimalApp\obj\Debug\App.g.cs
+C:\Users\dalli\source\repos\AnimalApp\AnimalApp\obj\Debug\AnimalApp_MarkupCompile.cache
+C:\Users\dalli\source\repos\AnimalApp\AnimalApp\obj\Debug\AnimalApp_MarkupCompile.lref
+C:\Users\dalli\source\repos\AnimalApp\AnimalApp\obj\Debug\MainWindow.baml
+C:\Users\dalli\source\repos\AnimalApp\AnimalApp\obj\Debug\AnimalApp.g.resources
+C:\Users\dalli\source\repos\AnimalApp\AnimalApp\obj\Debug\AnimalApp.Properties.Resources.resources
+C:\Users\dalli\source\repos\AnimalApp\AnimalApp\obj\Debug\AnimalApp.csproj.GenerateResource.cache
+C:\Users\dalli\source\repos\AnimalApp\AnimalApp\obj\Debug\AnimalApp.csproj.CoreCompileInputs.cache
+C:\Users\dalli\source\repos\AnimalApp\AnimalApp\obj\Debug\AnimalApp.exe
+C:\Users\dalli\source\repos\AnimalApp\AnimalApp\obj\Debug\AnimalApp.pdb

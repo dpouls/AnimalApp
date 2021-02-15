@@ -5,8 +5,62 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AnimalApp"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+        Title="Ice Beasts" Height="450" Width="800" FontFamily="Papyrus" FontSize="15" WindowStartupLocation="CenterScreen">
+    <Window.Background>
+        <ImageBrush ImageSource="snow.jpg"/>
+    </Window.Background>
+    <Grid >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="1.2*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="1.5*" />
+            <RowDefinition Height="2.5*" />
+            <RowDefinition Height=".5*" />
+        </Grid.RowDefinitions>
+        <Grid Grid.Column="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width=".5*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <RadioButton x:Name="RBTroll" Content="Frost Troll" Grid.Row="1" HorizontalAlignment="Center" Checked="RBTroll_Checked" Cursor="Hand"/>
+            <RadioButton x:Name="RBYeti" Content="Yeti" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" Checked="RBYeti_Checked" Cursor="Hand"/>
+            <RadioButton x:Name="RBDragon" Content="White Dragon" Grid.Row="1" Grid.Column="2" HorizontalAlignment="Center" Checked="RBDragon_Checked" Cursor="Hand"/>
+        </Grid>
+        <GroupBox Grid.Row="1" Header="Base Class">
+            <StackPanel>
+                <Button x:Name="BtnMove" Content="Move" Margin="0 10" Click="BtnMove_Click" Cursor="Hand"/>
+                <Button x:Name="BtnEat" Content="Eat" Click="BtnEat_Click" Cursor="Hand"/>
+            </StackPanel>
+        </GroupBox>
+        <GroupBox Grid.Row="1" Grid.Column="1" Header="Derived Class">
+            <StackPanel>
+                <Button x:Name="BtnPet" Content="Pet" Margin="0 10" Click="BtnPet_Click" Cursor="Hand"/>
+                <Button x:Name="BtnSound" Content="Sound" Click="BtnSound_Click" Cursor="Hand"/>
+            </StackPanel>
+        </GroupBox>
+        <GroupBox Grid.Row="1" Grid.Column="2" Header="Properties">
+            <StackPanel>
+                <Button x:Name="BtnFood" Content="Food Type" Margin="0 10" Click="BtnFood_Click" Cursor="Hand"/>
+                <Button x:Name="BtnSkin" Content="Skin Type" Click="BtnSkin_Click" Cursor="Hand"/>
+            </StackPanel>
+        </GroupBox>
+        <Image x:Name="ImgBeast" Grid.Row="2" Grid.Column="1" Source="mammoth.jpg" Margin="5"/>
+        <Label x:Name="LblResults"
+               Content="Select a beast to learn more." 
+               Grid.Row="3"
+               Grid.ColumnSpan="3"
+               VerticalAlignment="Center"
+               HorizontalAlignment="Center"
+               />
     </Grid>
 </Window>
